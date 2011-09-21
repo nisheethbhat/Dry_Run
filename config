@@ -1,0 +1,28 @@
+
+
+<REG>
+ NAME = "CMD"
+ OFFSET = 0x04
+ LENGTH = 0x02
+ VALUE = 0x3421
+ RO_MASK = 0xFFFF
+ RW_MASK = 0x0000
+ RWC_MASK = 0x0000ll
+ RWS_MASK = 0x0000
+ DESC = "Command Register"
+</REG>
+
+<REG>
+ NAME = "TMV"
+ LENGTH = 0x01
+ OFFSET = 0x03
+ VALUE = 0xAA
+ DESC = "Time Pass Reg"
+ RO_MASK = 0xFFFF
+ RW_MASK = 0x0000
+ RWC_MASK = 0x0000
+ RWS_MASK = 0x0000
+</REG>
+
+
+
