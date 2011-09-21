@@ -47,7 +47,7 @@ int read_file()
 
     config_file = fopen ("config","r");
     if (config_file == NULL) {
-        printf("Could not open the config file \n");
+        perror("config");
         return(1);
     }
 
